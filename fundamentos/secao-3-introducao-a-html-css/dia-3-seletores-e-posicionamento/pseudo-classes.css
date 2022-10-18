@@ -1,0 +1,32 @@
+div:hover {
+    background-color: green;
+}
+
+.div1 {
+    color: red;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div2 {
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div3 {
+    color: blueviolet;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.div4 {
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div5 {
+    color: yellowgreen;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
