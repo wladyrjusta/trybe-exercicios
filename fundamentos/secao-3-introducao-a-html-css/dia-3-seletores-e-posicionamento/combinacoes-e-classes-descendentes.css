@@ -1,0 +1,56 @@
+.background {
+    background-color: rgb(252, 252, 105);
+}
+
+.par {
+    color: rgb(15, 109, 15);
+    font-size: 18px;
+    
+}
+
+.impar {
+text-transform: uppercase;  
+}
+
+h1 {
+    color: rgb(196, 10, 10);
+    font-size: 40px;
+    border: 1px black solid;
+}
+
+h3 {
+    color: rgb(196, 10, 10);
+}
+
+li {
+    font-size: 20px;
+    }
+
+.hover:hover {
+    
+}
+
+ol {
+    font-weight: bold;
+}
+
+.ulcolor {
+    color: rgb(25, 25, 122);
+}
+
+.javaback {
+    background-color: pink;
+    color: rgb(25, 25, 122);
+}
+
+div:hover {
+    color: red;
+    font-weight: bold;
+}
+
+ul.links:hover {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration: solid;
+}
