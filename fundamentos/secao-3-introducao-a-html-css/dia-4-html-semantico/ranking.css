@@ -1,0 +1,71 @@
+
+      
+
+      h1 {
+        text-align: center;
+        font-size: 38px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+      }
+
+    
+
+      .first {
+        background-color: rgb(235, 200, 84);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 200px;
+        position: fixed;
+        left: 850px;
+
+        
+      }
+
+      .second {
+        background-color: rgb(219, 219, 219);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 300px;
+        position:fixed;
+        top:150px;
+        left: 650px;
+        font-weight: bolder;
+      }
+
+      .third {
+        background-color: rgb(170, 142, 106);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 300px;
+        position: fixed;
+        top: 150px;
+        right: 670px;
+        font-weight: bolder;
+      }
+
+      .premiacoes {
+        position: fixed;
+        top: 220px;
+        width: 90%;
+        padding: 0;
+        text-align: center;
+        margin-left: 80px;
+        
+      }
+
+      h3{
+        text-align: center;
+        font-size: 23px;
+      }
+
+      li {
+        display: inline;
+        text-align: center;
+        
+      }
+
+      
+
+    
