@@ -57,6 +57,141 @@ switch (statusPessoaCandidata) {
      console.log('Informação Incorreta.');
 }
 
+/// Exercício 6***///
+
+const a = 25;
+const b = 30;
+
+let adicao = a + b;
+console.log(adicao);
+let subtracao = a - b;
+console.log(subtracao);
+let multiplicacao = a * b;
+console.log(multiplicacao);
+let divisao = a / b ;
+console.log(divisao);
+let modulo = a % b;
+console.log(modulo);
+
+ ////*** Exercício 7**/////
+const num1 = 25 + 35;
+const num2 = 36 + 24;
+
+if (num1 > num2) {
+    console.log(num1);
+} else if (num2 > num1) {
+    console.log(num2)
+} else {
+    console.log("Números iguais");
+}
+
+///***Exercício 7**////
+
+let valor;
+
+if (valor >= 1) {
+    console.log('positive');
+} else if (valor < 0) {
+    console.log('negative');
+} else {
+    console.log('Zero');
+}
+
+//**Exercício 8**////
+
+const angulo1 = 30;
+const angulo2 = 60;
+const angulo3 = -1;
+
+if (angulo1 + angulo2 + angulo3 === 180) {
+    console.log(true);
+} else if (angulo1 < 0 || angulo2 < 0 || angulo3 < 0) {
+    console.log("ERRO! Use números positivos!")
+} else if (angulo1 + angulo2 + angulo3 !== 180) {
+    console.log(false);
+}
+
+///*Exercício 9***///
 
 
+let peça = ''.toLowerCase();
+
+switch(peça) {
+    case 'rainha' :
+        console.log(peça.toLowerCase());
+        console.log('Se move na Lateral/Horizontal/Obloquos/ quantas casas desejar')
+         break;
+     case 'rei' :
+            console.log('Se move apenas uma casa/em qualquer direção')
+         break;
+     case 'bispo' :
+        console.log('Se move nas diagonais/Qunatas casas desjar')
+        break;
+    case 'cavalo' :
+        console.log('Se move em L, avançando uma casa em qualquer direção e depois avança duas casas em outra diração formando um angulo de 45° na interseção entre as retas//Também pode avançar primeiro duas casas em qualuqer direção e depois uma casa em outra diração, formando um angulo de 45° na interseção entre as retas')
+        break;
+    case 'torre' :
+        console.log('Se move quantas casas desejar na horizontal ou vertical');
+        break;
+    case 'peão' :
+        console.log('Se move uma casa em qualquer direção')
+        break
+    default:
+        console.log('Essa peça não existe')
+}   
+
+///**Exercicío - Aula academia de lógica. Questão 2**///
+let num = 150;
+let recebedor = 1;
+
+ 
+for (let indexnum = 2; indexnum <= num; indexnum += 1) {
+    if (indexnum % 3 === 0) {
+        recebedor = recebedor + 1;
+        console.log(true);
+    } else if (recebedor == 50) {
+    console.log('Temos 50 números divisivéis por 3 no intervalo entre 2 e 150!');
+    }
+}
+
+//**Exercício  10**/////
+const numero1 = 5;
+const numero2 = 3;
+const numero3 = 5;
+
+if (numero1 % 2 == 0 || numero2 % 2 == 0 || numero3 % 2 ==0) {
+    console.log(true);
+} else {
+        console.log(false);
+}
+
+if (numero1 % 3 == 0 || numero2  % 3 == 0 || numero3 % 3 == 0) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+///**Exercicío 11**///
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+console.log(numbers);
+let sum = 0;
+let media;
+
+for (let indexNumbers = 0; indexNumbers < numbers.length; indexNumbers += 1) {
+    sum += numbers[indexNumbers];
+ }
+console.log(sum);
+console.log(media = sum / numbers.length);
+
+if (media > 20) {
+    console.log('Maior que 20!');
+} else {
+    console.log('Valor menor ou igual a 20!');
+}
+
+k
+
+
+
+///**Exercicíos 12*///
 
