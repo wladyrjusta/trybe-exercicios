@@ -43,11 +43,13 @@ console.log('Números ímpares neste Array:' + ' ' + impares);
 console.log("Números pares neste Array:" + ' ' + pares);
 
 let newArray = Array.from(Array(26).keys());
-console.log(newArray);
+console.log(newArray)
 
 for (let indexNewArray = 0; indexNewArray < newArray.length; indexNewArray += 1) {
     console.log(newArray[indexNewArray] / 2);
 }
+
+///**Fim**///
 
 
 
