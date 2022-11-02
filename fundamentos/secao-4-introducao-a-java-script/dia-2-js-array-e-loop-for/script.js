@@ -1,14 +1,16 @@
 ///**Exercicío-01**///
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-console.log(numbers);
+for (indexOfNumber =0; indexOfNumber < numbers.length; indexOfNumber += 1) {
+    console.log(numbers[indexOfNumber]);
+}    
 let sum = 0;
 let media;
-
 for (let indexNumbers = 0; indexNumbers < numbers.length; indexNumbers += 1) {
     sum += numbers[indexNumbers];
+    media = sum / numbers.length;
  }
 console.log(sum);
-console.log(media = sum / numbers.length);
+console.log(media);
 
 if (media > 20) {
     console.log('Maior que 20!');
@@ -16,20 +18,27 @@ if (media > 20) {
     console.log('Valor menor ou igual a 20!');
 }
 
-const valorMax = numbers.reduce(function(maiorNum, menorNum) {
-    return maiorNum > menorNum ? maiorNum : menorNum;
-});
-console.log(valorMax);
+let maioNum = numbers[0];
+for (indexNumbers = 1; indexNumbers < numbers.length; indexNumbers += 1) {
+    if (numbers[indexNumbers] > maioNum) {
+        maioNum = numbers[indexNumbers];
+    }
+}
+//////////////////////////////////////////////////////
+let menorNum = numbers[0];
+for (indexNumbers = 1; indexNumbers < numbers.length; indexNumbers += 1) {
+    if (numbers[indexNumbers] > menorNum) {
+        menorNum = numbers[indexNumbers];
+    }
+}
+console.log('Menor número deste array é: ' + maioNum);
 
 
-const valorMin = numbers.reduce(function(menorNum, maiorNum) {
-    return menorNum < maiorNum ? menorNum : maiorNum;
-});
-console.log(valorMin);
+console.log('Menor número deste array é: ' + menorNum);
+
 
 let impares = 0;
 let pares = 0;
-
  for (let indexNumbers = 0; indexNumbers < numbers.length; indexNumbers += 1) {
     if (numbers[indexNumbers] % 2 !== 0) {
         impares += 1;
@@ -39,17 +48,20 @@ let pares = 0;
         console.log('Nenhum número ímpar');
     }
 }
-console.log('Números ímpares neste Array:' + ' ' + impares);
-console.log("Números pares neste Array:" + ' ' + pares);
+console.log('Números ímpares neste Array: ' + impares);
+console.log("Números pares neste Array: " +  pares);
 
-let newArray = Array.from(Array(26).keys());
-console.log(newArray)
-
-for (let indexNewArray = 0; indexNewArray < newArray.length; indexNewArray += 1) {
-    console.log(newArray[indexNewArray] / 2);
+let newArray = [];
+for (index = 1; index <= 25; index += 1) {
+    newArray.push(index);
 }
-
-///**Fim**///
+console.log(newArray);
+let divisao = [];
+for (let indexNewArray = 0; indexNewArray < newArray.length; indexNewArray += 1) {
+    divisao.push(newArray[indexNewArray] / 2);
+}
+console.log(divisao);
+//**Fim**///
 
 
 
