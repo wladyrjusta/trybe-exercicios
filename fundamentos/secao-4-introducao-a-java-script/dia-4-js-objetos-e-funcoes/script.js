@@ -143,3 +143,4 @@ function compareWordEnding(word, end) {
 }
 console.log(compareWordEnding('trybe', 'be'))
 console.log(compareWordEnding('fernando', 'fer'));
+//////////////////////////////////////////////////////////////////
