@@ -17,7 +17,5 @@ window.onload = function () {
     const clearBtn = document.querySelector('#clear-btn');
     clearBtn.addEventListener('click', clearFields);
 };
-const inputs = document.querySelectorAll('input')
-localStorage.setItem('dados-forms');
 
 
