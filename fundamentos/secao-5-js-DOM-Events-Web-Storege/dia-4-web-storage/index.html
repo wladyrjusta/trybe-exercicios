@@ -40,30 +40,57 @@
   .paragraph {
     display: flex;
   }
-  </style>
-  <script>
-    window.onload = () => {
-        const setBackgorundColor = (color) => {
-            let content = document.querySelector('.content')
-            content.style.backgroundColor = color
-            localStorage.setItem('backgroundColor', color)
-        }
-        const setFontColor = (color) => {
-            let paragraphs = document.querySelectorAll('.paragraph')
-            for (let index = 0; index < paragraphs.legth; index += 1) {
-                paragraphs[index].style.color = color
-            }
-            localStorage.setItem('fontColor', color)
-        }
-        const setFontSize = (size) => {
-            let paragraphs = document.querySelectorAll('.paragraph')
-            for (let index = 0; index < paragraphs.length; index += 1) {
-                paragraphs[index].style.fontSize = size
-            }
-            localStorage.setItem('fontSize', size)
-        }
-        
-    }
-  </script>
+  </style>  
 </head>
+<body>
+ <section id="preferences">
+  <section id="background-color" class="options">
+    <span>Cor de Fundo</span>
+    <button>white</button>
+    <button>black</button>
+    <button>green</button>
+    <button>blue</button>
+    <button>yellow</button>
+  </section>
+  <section id="font-color" class="options">
+   <span>Tamanho da fonte</span>
+   <button>8pt</button>
+   <button>10pt</button>
+   <button>12pt</button>
+   <button>14pt</button>
+   <button>20pt</button>   
+  </section>
+  <section id="line-heigth" class="options">
+    <button>1</button>
+    <button>normal</button>
+    <button>1.5</button>
+    <button>2.0</button>
+    <button>3.0</button>
+  </section>
+  <section id="font-family" class="options">
+    <span>Tipo da fonte</span>
+    <button>Arial</button>
+    <button>Times New Roman</button>
+  </section>
+ </section>
+ <main>
+  <section class="title">
+    <h1>Lorem Ipsum</h1>
+  </section>
+  <section class="description">
+    <h3>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</h3>
+  </section>
+  <article class="content">
+    <p class="paragraph">Proin magna lectus, tincidunt at congue id, fermentum at metus. Phasellus pretium efficitur ornare. Duis at convallis purus. Phasellus ac metus a quam sollicitudin aliquam. Maecenas mi quam, venenatis ut fringilla sit amet, iaculis vitae tortor. In lorem augue, auctor egestas odio nec, rutrum mollis est. Curabitur condimentum sit amet odio porta interdum. Nullam eleifend laoreet mi, eget dignissim nisi consequat volutpat.</p>
+    <p class="paragraph">Proin magna lectus, tincidunt at congue id, fermentum at metus. Phasellus pretium efficitur ornare. Duis at convallis purus. Phasellus ac metus a quam sollicitudin aliquam. Maecenas mi quam, venenatis ut fringilla sit amet, iaculis vitae tortor. In lorem augue, auctor egestas odio nec, rutrum mollis est. Curabitur condimentum sit amet odio porta interdum. Nullam eleifend laoreet mi, eget dignissim nisi consequat volutpat.</p>
+    <p class="paragraph">Proin magna lectus, tincidunt at congue id, fermentum at metus. Phasellus pretium efficitur ornare. Duis at convallis purus. Phasellus ac metus a quam sollicitudin aliquam. Maecenas mi quam, venenatis ut fringilla sit amet, iaculis vitae tortor. In lorem augue, auctor egestas odio nec, rutrum mollis est. Curabitur condimentum sit amet odio porta interdum. Nullam eleifend laoreet mi, eget dignissim nisi consequat volutpat.</p>
+    <p class="paragraph">Proin magna lectus, tincidunt at congue id, fermentum at metus. Phasellus pretium efficitur ornare. Duis at convallis purus. Phasellus ac metus a quam sollicitudin aliquam. Maecenas mi quam, venenatis ut fringilla sit amet, iaculis vitae tortor. In lorem augue, auctor egestas odio nec, rutrum mollis est. Curabitur condimentum sit amet odio porta interdum. Nullam eleifend laoreet mi, eget dignissim nisi consequat volutpat.</p>
+    <p class="paragraph">Proin magna lectus, tincidunt at congue id, fermentum at metus. Phasellus pretium efficitur ornare. Duis at convallis purus. Phasellus ac metus a quam sollicitudin aliquam. Maecenas mi quam, venenatis ut fringilla sit amet, iaculis vitae tortor. In lorem augue, auctor egestas odio nec, rutrum mollis est. Curabitur condimentum sit amet odio porta interdum. Nullam eleifend laoreet mi, eget dignissim nisi consequat volutpat.</p>
+    <p class="paragraph">Proin magna lectus, tincidunt at congue id, fermentum at metus. Phasellus pretium efficitur ornare. Duis at convallis purus. Phasellus ac metus a quam sollicitudin aliquam. Maecenas mi quam, venenatis ut fringilla sit amet, iaculis vitae tortor. In lorem augue, auctor egestas odio nec, rutrum mollis est. Curabitur condimentum sit amet odio porta interdum. Nullam eleifend laoreet mi, eget dignissim nisi consequat volutpat.</p>
+    <p class="paragraph">Proin magna lectus, tincidunt at congue id, fermentum at metus. Phasellus pretium efficitur ornare. Duis at convallis purus. Phasellus ac metus a quam sollicitudin aliquam. Maecenas mi quam, venenatis ut fringilla sit amet, iaculis vitae tortor. In lorem augue, auctor egestas odio nec, rutrum mollis est. Curabitur condimentum sit amet odio porta interdum. Nullam eleifend laoreet mi, eget dignissim nisi consequat volutpat.</p>
+    <p class="paragraph">Proin magna lectus, tincidunt at congue id, fermentum at metus. Phasellus pretium efficitur ornare. Duis at convallis purus. Phasellus ac metus a quam sollicitudin aliquam. Maecenas mi quam, venenatis ut fringilla sit amet, iaculis vitae tortor. In lorem augue, auctor egestas odio nec, rutrum mollis est. Curabitur condimentum sit amet odio porta interdum. Nullam eleifend laoreet mi, eget dignissim nisi consequat volutpat.</p>
+  </article>
+ </main>
+ <script src="script.js"></script>
+</body>
 </html>
