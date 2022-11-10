@@ -46,5 +46,12 @@ window.onload = () => {
         setFontColor(event.target.innerHTML)
     })
    }
+   //Tamanho da fonte
+   let fontSizeButtons = document.querySelectorAll('#font-size>button')
+   for (let index = 0; index < fontSizeButtons.length; index += 1) {
+    fontSizeButtons[index].addEventListener('click', (event) => {
+        setFontSize(event.target.innerHTML)
+    })
+   }
    
 }
