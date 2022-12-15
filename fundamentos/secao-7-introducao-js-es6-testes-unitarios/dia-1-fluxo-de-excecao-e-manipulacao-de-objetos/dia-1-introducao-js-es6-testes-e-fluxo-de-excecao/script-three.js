@@ -61,10 +61,22 @@ const totalOfStudentsPresence = (obj, key, value) => {
 };
 totalOfStudentsPresence(allLessons, 'materia','Matemática');
 console.log('---------------------------------');
-const report = {};
-const lessons = [];
-for (let index in allLessons) {
-  if (allLessons[index].professor === 'Maria Clara') {
-   report = {} 
+const getInfos = (obj, name) => {
+  let schoolSubject = [];
+  let allStudents = 0;
+  for (let index in obj) {
+    if (obj[index].professor === name) {
+      schoolSubject.push(obj[index].materia);
+      allStudents += obj[index].numeroEstudantes;
+    };
   }
-}
+  return {aulas: schoolSubject, estudantes: allStudents};
+};
+console.log(getInfos(allLessons, 'Maria Clara'));
+console.log('---------------------------------');
+const createReport = (obj, professor) => {
+  const report = { professor, };
+  Object.assign(report, getInfos(allLessons, professor));
+  return report;
+};
+console.log(createReport(allLessons, 'Maria Clara'));
