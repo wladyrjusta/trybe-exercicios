@@ -48,10 +48,23 @@ const getValueByNumber = (object, index) => {
 };
 console.log(getValueByNumber(lesson1, 0));
 console.log('---------------------------------');
-let compareKey = Object.keys(lesson1);
-let compareValue = Object.values(lesson1);
-for (let index in compareKey) {
-  if (compareKey[index] === 'turno' && compareValue === 'manhã') {
-    console.log(true);
+const totalOfStudentsPresence = (obj, key, value) => {
+  let totalPresence = 0;
+  for (let index in obj) {
+    if (obj[index][key] === value) {
+      totalPresence += obj[index].numeroEstudantes;
+    } else {
+      totalPresence += 0;
+    }
+  }
+  return console.log(totalPresence);
+};
+totalOfStudentsPresence(allLessons, 'materia','Matemática');
+console.log('---------------------------------');
+const report = {};
+const lessons = [];
+for (let index in allLessons) {
+  if (allLessons[index].professor === 'Maria Clara') {
+   report = {} 
   }
 }
