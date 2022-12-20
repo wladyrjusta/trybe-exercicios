@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1671561913252" clover="3.2.0">
+  <project timestamp="1671561913252" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1" elements="20" coveredelements="20" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
+    <file name="searchEmployee.js" path="/home/wladyr/trybe-exercicios/fundamentos/secao-7-introducao-js-es6-testes-unitarios/dia-3-matchers-e-cobertura-de-codigo/exercicios-bonus-dia-3/searchEmployee.js">
+      <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="43" count="7" type="stmt"/>
+      <line num="44" count="7" type="stmt"/>
+      <line num="45" count="42" type="stmt"/>
+      <line num="46" count="42" type="cond" truecount="2" falsecount="0"/>
+      <line num="47" count="5" type="stmt"/>
+      <line num="51" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="52" count="2" type="stmt"/>
+      <line num="55" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="56" count="2" type="stmt"/>
+      <line num="59" count="3" type="stmt"/>
+      <line num="62" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
